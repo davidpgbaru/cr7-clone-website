@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 900; /*font gets darker, more weight, and there is power behind it */
+    
+    
+    line-height: 2.5em; /*gives you a bit of breathing space to read sentences and paragraphs*/
+    background-image: url("../images/spikes.png")
+}
+
+.content {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    line-height: 2.5em;
+    padding-top: 20px; /*this is a comment */
+    padding-bottom: 71px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }   
+  .active {
+    background-color: orange;
+  }
+
+
+
+button:hover {
+    /*color: orange; */
+    background-color: orange;
+}
